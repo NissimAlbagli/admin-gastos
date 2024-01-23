@@ -65,6 +65,7 @@
             <Modal 
             v-if="modal.mostar"
             @ocultar-modal="ocultarModal"
+            :modal="modal"
             />
         </main>
         
