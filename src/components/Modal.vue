@@ -7,6 +7,7 @@
 
     const emit = defineEmits([
         'ocultar-modal', 
+        'guardar-gasto',
         'update:nombre', 
         'update:cantidad', 
         'update:categoria'
@@ -55,7 +56,7 @@
             return
         }
 
-        console.log('Emitiendo Gasto');
+        emit('guardar-gasto');
     }
 </script>
 
