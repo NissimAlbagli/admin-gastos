@@ -119,7 +119,7 @@
                         <option value="gastos">Gastos Varios</option>
                         <option value="ocio">Ocio</option>
                         <option value="salud">Salud</option>
-                        <option value="subscripciones">Subscripciones</option>
+                        <option value="suscripciones">Suscripciones</option>
                     </select>
                 </div>
 
