@@ -10,7 +10,8 @@
         'guardar-gasto',
         'update:nombre', 
         'update:cantidad', 
-        'update:categoria'
+        'update:categoria',
+        'eliminar-gasto'
     ]);
 
     const props = defineProps({
@@ -170,6 +171,7 @@
             type="button"
             class="btn-eliminar"
             v-if="isEditing"
+            @click="$event => $emit('eliminar-gasto')"
             >
                 Eliminar Gasto
             </button>
